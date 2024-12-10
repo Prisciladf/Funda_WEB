@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <style>
+        body {
+            background-color: #f0f0f0; 
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: rgba(243, 31, 31, 0.685);
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: ;
+            color: rgb(0, 0, 0);
+        }
+        .recuo {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Meu Portfólio</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#contatos">Contatos</a></li>
+                <li><a href="#trabalhos">Trabalhos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Página "Sobre Mim" -->
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Meu nome é Priscila Dornelles Fernandes, tenho 24 anos e sou de São Leopoldo/RS. Futura Engenheira de Software, 
+            com foco em engenharia de dados. Nas horas vagas atleta de Crossfit, mãe de pet e torcedora do Sport Clube Internacional. </p>
+    </section>
+
+    <!-- Página "Formação" -->
+    <section id="formacao">
+        <h2>Formação</h2>
+        <p>Estudante de análise e desenvolvimento de sistemas na Uninter. <br>
+        Técnica em Contabilidade pela Faculdades e Escola técnica QI. <br>
+        <br>Tenho diversos cursos na área da tecnologia:</p>
+        <p class = "recuo"> Pacote Office Avançado, com capacidade de programação em código VBA.<br>
+            Linguagem Python.<br>
+            Linguagem SQL.<br>
+            Power Platform avançado.<br>
+            Power BI e Power Query avançado.
+        </p>
+    </section>
+
+        <!-- Página "Trabalhos" -->
+        <section id="trabalhos">
+            <h2>Trabalhos</h2>
+            <p>Confira meus serviços disponíveis em <a href="https://prisciladfernandes.wixsite.com/priscila-dornelles">https://prisciladfernandes.wixsite.com/priscila-dornelles</a></p>
+        </section>
+
+    <!-- Página "Contatos" -->
+    <section id="contatos">
+        <h2>Contatos</h2>
+        <p>Entre em contato preenchendo o formulário abaixo:</p>
+
+        <form action="formulario.php" method="post">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required> <br>
+    
+            <label for="email">Email: </label><br>
+            <input type="email" id="email" name="email" required><br>
+    
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+    
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; Priscila Dornelles Fernandes - 2024</p>
+    </footer>
+</body>
+</html>
